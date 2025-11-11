@@ -1,6 +1,6 @@
 # Simple test runner that uses expected / actual helpers
 
-require_relative '../data_intialiser'
+require_relative './data_intialiser'
 
 def expected(value)
   puts "Expected: $#{'%.2f' % value}"
